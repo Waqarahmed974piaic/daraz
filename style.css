@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    width: 100%;
+    height: 68px;
+    background-color:#f7f8f9;
+    display:flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;  
+}
+.subnav{
+    margin-top: 70px;
+    display: flex;
+}
+.image>p{
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    line-height: normal;
+    color: #002f34;
+    font-family: Arial,Helvetica,sans-serif;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.dropdown>select{
+    background-color: #FFFFFF;
+    border: 2px solid #002f34;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    width: 272px;
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+}
+.search>input{
+    padding: 0px 8px;
+    width: 650.34px;
+    height: 44px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    line-height: 1.15;
+    border: 2px solid #002f34;
+    border-radius: 4px 0 0 4px;
+    margin-left: 16px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+}
+.search{
+    display: flex;
+}
+.box{
+    background-color: #002F34;
+    width: 48px;
+    height: 48px;
+    border-radius: 0 4px 4px 0;
+    display: flex;
+    cursor: pointer;
+    margin-top: 10px;
+
+} 
+.font{
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    line-height: normal;
+    color: #002f34;
+    font-family: Arial,Helvetica,sans-serif;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 80px;
+}
+.subnav>ul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    color: #002f34;
+    height: 40px;
+    margin: 2px 180px 0px;
+    list-style: none;
+}
+.subnav>ul>li{
+    text-transform: capitalize;
+    font-weight: 200;
+    font-size: 16px;
+    color: #002f34;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.subnav>ul>li:hover{
+    color: cadetblue;
+}  
+.subnav>p{
+    color: black;
+    font-size: 20px;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+.subnav>ul>li#All{
+    text-transform: capitalize;
+    font-weight: 200;
+    font-size: 25px;
+    color: #002f34;
+    margin-left:0px;
+    cursor: pointer;
+    padding: 0px;
+}
+.bodya>img{
+    width: 100%;
+    height: 252px;
+    margin-left: 0px;
+    display: flex;
+}
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 1px;
+    padding-right: 15px;
+    text-align: center;
+    background-color: #fdfbfb;
+    justify-content: space-around;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    width: 270px;
+    display: flex;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin-left: 140px;
+    display: table;
+
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 2px;
+  }
+  
+  /* Style the counter cards */
+  /* @media screen and (max-width: 600px) {
+      .nav>.image>p{
+          display: table;
+      }
+  } */
+.bottom{
+    display: flex;
+    background: #ebeeef;
+    padding: 16px 0 32px;
+    border-top: 1px solid rgba(0,47,52,.2);
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    height: 90px;
+    margin-top: 5px;
+}
+.bottom>#outsideul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-weight: 700;
+    cursor: pointer;
+    color: #002f34;
+    height: 40px;
+    margin: 2px 180px 0px;
+    list-style: none;
+    margin-top: 20px;
+}
+.bottom>#outsideul>#outsideli>#insideul{
+    list-style: none;
+    display: block;
+}
+.bottom>#outsideul>#outsideli{
+    padding: 60px;
+    margin-top: 40px;
+}
+.last{
+    background-color: #002f34;
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+.last>#outsideul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 100px;
+}
+.last>#outsideul>#outsideli{
+    margin-left: 80px;
+    display: flex;
+    margin-top: 15px;
+    padding-left: 60px;
+}
+.last>#outsideul>#outsideli>#insideul{
+    list-style: none;
+    display: flex;
+    margin-left: 40px;
+}
